@@ -1,11 +1,9 @@
-/* Some kind of header tag is supposed to be here */
-1 {
+h1 {
   color: red;
 }
 
-/* You should have input here */
-someinputhere {
-  border: 1px solid black;
+input {
+  border: 2px solid blue;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
@@ -38,8 +36,7 @@ someinputhere {
   }
 }
 
-/* half of this class tag is in the html file already */
-.-text {
+.rainbow-text {
   animation: rainbow 5s linear infinite;
   -webkit-background-clip: text;
   -webkit-animation: rainbow 5s linear infinite;
